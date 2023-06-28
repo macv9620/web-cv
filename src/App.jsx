@@ -15,7 +15,7 @@ function App () {
   const [modalMessageToShow, setModalMessageToShow] = useState({ type: '', message: '' })
   return (
     <>
-      <main className='text-gray-400 bg-gray-900 body-font'>
+      <main className='text-gray-400 body-font'>
         <Navbar />
         <About />
         <Projects />
