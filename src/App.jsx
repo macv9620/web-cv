@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './App.css'
 import { About } from './Components/About'
 import Contact from './Components/Contact'
-import Navbar from './Components/Navbar'
 import Projects from './Components/Projects'
 import { Skills } from './Components/Skills'
 import Testimonials from './Components/Testimonials'
 import { HashLoaderModal } from './Components/spinner/HashLoaderModal'
 import { ModalMessage } from './Components/modalMessage/ModalMessage'
+import Navbar from './Components/navbar/Navbar'
 
 function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)
