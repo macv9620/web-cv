@@ -34,9 +34,9 @@ body {
   perspective-origin: right;
 }
 
-:root {
+/*:root {
   --red: #E50914;
-  --dark: #3d3939;
+  --dark: #302c2c;
   --blue: #2C9FCC;
   --ligth-grey: #e6e1e1;
 
