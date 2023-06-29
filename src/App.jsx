@@ -12,32 +12,40 @@ import Navbar from './Components/navbar/Navbar'
 function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)
   const [showModalMessage, setShowModalMessage] = useState(false)
-  const [modalMessageToShow, setModalMessageToShow] = useState({ type: '', message: '' })
+  const [modalMessageToShow, setModalMessageToShow] = useState({
+    type: '',
+    message: ''
+  })
   return (
     <>
-      <main className='text-gray-400 body-font'>
-        <Navbar />
-        <About />
-        <Projects />
-        <Skills />
-        <Testimonials />
-        <Contact
-          setShowLoaderSpinner={setShowLoaderSpinner}
-          setModalMessageToShow={setModalMessageToShow}
-          setShowModalMessage={setShowModalMessage}
-        />
-        {showLoaderSpinner
-          ? <HashLoaderModal />
-          : null}
 
-        {showModalMessage
-          ? <ModalMessage
-              setShowModalMessage={setShowModalMessage}
-              modalMessageToShow={modalMessageToShow}
-            />
-          : null}
+      <main className='parallax-container text-gray-400 body-font'>
+        <Navbar />
+        <div className='content__background' />
+        <div className='content__front'>
+          <About />
+          <Projects />
+          <Skills />
+          <Testimonials />
+          <Contact
+            setShowLoaderSpinner={setShowLoaderSpinner}
+            setModalMessageToShow={setModalMessageToShow}
+            setShowModalMessage={setShowModalMessage}
+          />
+          {showLoaderSpinner ? <HashLoaderModal /> : null}
+
+          {showModalMessage
+            ? (
+              <ModalMessage
+                setShowModalMessage={setShowModalMessage}
+                modalMessageToShow={modalMessageToShow}
+              />
+              )
+            : null}
+        </div>
 
       </main>
+
     </>
   )
 }

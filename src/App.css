@@ -1,3 +1,37 @@
-#root {
-    background-image: url('./assets/cool-background.png');
+body {
+  margin: 0;
 }
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  background-image: url('./assets/cool-background.png');
+  background-size: cover;
+}
+
+.content__background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+
+  background-size: cover;
+  width: 100%;
+}
+
+.content__front {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+
+  perspective-origin: right;
+}
+
+
