@@ -5,10 +5,10 @@ const Skills = () => {
   return (
     <section id='skills'>
       <div className='container px-5 py-10 mx-auto'>
-        <div className='text-center mb-4'>
-          <ChipIcon className='w-10 inline-block mb-4' />
+        <div className='text-center mb-4 flex flex-col items-center'>
+          <ChipIcon />
           <h1 className='sm:text-4xl text-3xl font-medium title-font text-gray-800 mb-4'>
-            Skills &amp; Technologies
+            Tecnologías implementadas
           </h1>
           <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#6b6767]'>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit

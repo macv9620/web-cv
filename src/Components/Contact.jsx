@@ -70,7 +70,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
               required
               value={dataForm.name}
               onChange={handleChange}
-              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:transition transition focus:ring-2 focus:ring-black text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:transition transition focus:ring-2 focus:ring-black text-base outline-none text-[#6b6767] py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
             />
           </div>
           <div className='relative mb-4'>
@@ -84,7 +84,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
               required
               value={dataForm.email}
               onChange={handleChange}
-              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black text-base outline-none text-[#6b6767] py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
             />
           </div>
           <div className='relative mb-4'>
@@ -100,7 +100,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
               required
               value={dataForm.message}
               onChange={handleChange}
-              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black h-32 text-base outline-none text-[#6b6767] py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
             />
           </div>
           <button

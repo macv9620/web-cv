@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
-import CodingIcon from '../assets/coding.svg'
+import aboutImage from '../assets/aboutImage.svg'
 
 // eslint-disable-next-line react/prop-types
 const About = ({ description, setDescription }) => {
-  const message = 'Soy Ingeniero Industrial y desarrollador Web en formación, apasionado por proyectos Tencológicos y la Web.'
+  const message = 'Soy Ingeniero Industrial y desarrollador Web en formación, apasionado por proyectos tecnológicos y la Web.'
 
   useEffect(() => {
     let i = 0
@@ -54,7 +54,7 @@ const About = ({ description, setDescription }) => {
           <img
             className='object-cover object-center rounded'
             alt='hero'
-            src={CodingIcon}
+            src={aboutImage}
           />
         </div>
       </div>
