@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { About } from './Components/About'
 import Contact from './Components/Contact'
@@ -8,6 +8,7 @@ import Testimonials from './Components/Testimonials'
 import { HashLoaderModal } from './Components/spinner/HashLoaderModal'
 import { ModalMessage } from './Components/modalMessage/ModalMessage'
 import Navbar from './Components/navbar/Navbar'
+// import axios from 'axios'
 
 function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)
@@ -16,6 +17,14 @@ function App () {
     type: '',
     message: ''
   })
+  const [description, setDescription] = useState('')
+
+  // useEffect(() => {
+  //   axios('https://get-yours.onrender.com/users')
+  //     .then(res => console.log(res))
+  //     .catch(err => console.log(err))
+  // }, [])
+
   return (
     <>
 
@@ -23,7 +32,10 @@ function App () {
         <Navbar />
         <div className='content__background' />
         <div className='content__front'>
-          <About />
+          <About
+            description={description}
+            setDescription={setDescription}
+          />
           <Projects />
           <Skills />
           <Testimonials />
