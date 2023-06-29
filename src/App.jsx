@@ -8,7 +8,7 @@ import Testimonials from './Components/Testimonials'
 import { HashLoaderModal } from './Components/spinner/HashLoaderModal'
 import { ModalMessage } from './Components/modalMessage/ModalMessage'
 import Navbar from './Components/navbar/Navbar'
-// import axios from 'axios'
+import axios from 'axios'
 
 function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)
@@ -19,11 +19,12 @@ function App () {
   })
   const [description, setDescription] = useState('')
 
-  // useEffect(() => {
-  //   axios('https://get-yours.onrender.com/users')
-  //     .then(res => console.log(res))
-  //     .catch(err => console.log(err))
-  // }, [])
+  useEffect(() => {
+    console.log('Levantando servicio...')
+    axios('https://get-yours.onrender.com/users')
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+  }, [])
 
   return (
     <>

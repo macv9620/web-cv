@@ -6,7 +6,7 @@ export default function Testimonials () {
   return (
     <section id='testimonials'>
       <div className='w-full bg-gray-900'>
-        <div className='container px-5 py-10 mx-auto text-center flex flex-col items-center'>
+        <div className='max-w-[1300px] container px-5 py-10 mx-auto text-center flex flex-col items-center'>
           <UsersIcon className='w-10 inline-block mb-4' />
           <h1 className='sm:text-4xl text-3xl font-medium title-font text-white mb-4'>
             Experiencia previa
