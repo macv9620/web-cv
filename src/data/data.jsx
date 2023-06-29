@@ -3,6 +3,13 @@ import project2 from '../assets/projects/project-2.gif'
 import project3 from '../assets/projects/project-3.gif'
 import project4 from '../assets/projects/project-4.gif'
 
+import jsIcon from '../assets/techIcons/js.png'
+import reactIcon from '../assets/techIcons/react.png'
+import nodeIcon from '../assets/techIcons/node.png'
+import expressIcon from '../assets/techIcons/express.png'
+import gitIcon from '../assets/techIcons/git.png'
+import viteIcon from '../assets/techIcons/vite.png'
+
 const projects = [
   {
     title: 'React Reserve',
@@ -56,12 +63,30 @@ const testimonials = [
 ]
 
 const skills = [
-  'JavaScript',
-  'React',
-  'Next.js',
-  'Node',
-  'GraphQL',
-  'Material UI'
+  {
+    tool: 'JavaScript',
+    icon: jsIcon
+  },
+  {
+    tool: 'React',
+    icon: reactIcon
+  },
+  {
+    tool: 'Node',
+    icon: nodeIcon
+  },
+  {
+    tool: 'Express',
+    icon: expressIcon
+  },
+  {
+    tool: 'Git',
+    icon: gitIcon
+  },
+  {
+    tool: 'Vite',
+    icon: viteIcon
+  }
 ]
 
 export { projects, testimonials, skills }

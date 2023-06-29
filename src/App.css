@@ -34,4 +34,17 @@ body {
   perspective-origin: right;
 }
 
+:root {
+  --red: #E50914;
+  --dark: #3d3939;
+  --blue: #2C9FCC;
+  --ligth-grey: #e6e1e1;
+
+  --green1: #2a9d8f;
+  --green2: #264653;
+  --orange1: #e9c46a;
+  --orange2: #f4a261;
+  --orange3: #e76f51;
+}
+
 
