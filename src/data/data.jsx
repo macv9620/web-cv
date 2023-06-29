@@ -42,16 +42,16 @@ const testimonials = [
   {
     quote:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
-    image: 'https://randomuser.me/api/portraits/men/1.jpg',
-    name: 'Jesse Hicks',
-    company: 'Zoozle'
+    image: 'https://pbs.twimg.com/profile_images/1542549521275752450/b2ZIy6aX_400x400.jpg',
+    name: 'Analista de Proyectos',
+    company: 'Audifarma'
   },
   {
     quote:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
-    image: 'https://randomuser.me/api/portraits/men/94.jpg',
-    name: 'Ruben Alvarez',
-    company: 'Dooble.io'
+    image: 'https://pbs.twimg.com/profile_images/2198784231/Logo_P_negro_copia_400x400.jpg',
+    name: 'Analista y Auditor de Inventarios',
+    company: 'Pentagrama'
   }
 ]
 
