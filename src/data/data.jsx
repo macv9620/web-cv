@@ -12,8 +12,8 @@ import viteIcon from '../assets/techIcons/vite.png'
 
 const projects = [
   {
-    title: 'React Reserve',
-    subtitle: 'MERN Stack',
+    title: 'Get Yours (ecommerce)',
+    techs: [jsIcon, reactIcon, nodeIcon, gitIcon, viteIcon],
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project1,
@@ -21,7 +21,7 @@ const projects = [
   },
   {
     title: 'React Tracks',
-    subtitle: 'React and Python',
+    techs: [jsIcon, reactIcon],
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project2,
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: 'DevChat',
-    subtitle: 'React and Firebase',
+    techs: [jsIcon, reactIcon],
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project3,
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: 'Epic Todo App',
-    subtitle: 'React Hooks',
+    techs: [jsIcon, reactIcon],
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project4,
