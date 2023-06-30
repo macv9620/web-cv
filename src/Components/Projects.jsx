@@ -1,6 +1,7 @@
 import React from 'react'
 import { projects } from '../data/data.jsx'
 import { CodeIcon } from '../icons/CodeIcon'
+import { Turn } from '../icons/Turn.jsx'
 
 export default function Projects () {
   return (
@@ -32,6 +33,7 @@ export default function Projects () {
                         className='absolute inset-0 w-full h-full object-cover object-center'
                         src={project.image}
                       />
+                      <Turn />
                     </div>
                     <div className='face back px-8 py-10 z-8 w-full border-4 border-gray-800 bg-gray-900 flex flex-col items-center justify-center'>
                       <div className='flex justify-center gap-4 pb-2'>

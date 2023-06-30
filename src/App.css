@@ -40,18 +40,14 @@ body {
   width: 330px;
   height: 330px;
   min-width: 330px;
+
+}
+
+.card:not(:hover){
   animation: opacity;
   animation-duration: 1s;
 }
 
-@keyframes opacity {
-  from { 
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
-  }
-}
 
 .card-container:hover .card {
   transform:  rotateY(180deg) rotateZ(180deg);
@@ -82,6 +78,16 @@ body {
   --orange1: #e9c46a;
   --orange2: #f4a261;
   --orange3: #e76f51;
+}
+
+
+@keyframes opacity {
+  from { 
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 
