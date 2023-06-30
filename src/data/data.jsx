@@ -9,15 +9,18 @@ import nodeIcon from '../assets/techIcons/node.png'
 import expressIcon from '../assets/techIcons/express.png'
 import gitIcon from '../assets/techIcons/git.png'
 import viteIcon from '../assets/techIcons/vite.png'
+import cssIcon from '../assets/techIcons/css.png'
+import htmlIcon from '../assets/techIcons/html.png'
 
 const projects = [
   {
     title: 'Get Yours (ecommerce)',
-    techs: [jsIcon, reactIcon, nodeIcon, gitIcon, viteIcon],
+    techs: [reactIcon, htmlIcon, cssIcon, jsIcon, gitIcon, viteIcon],
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+      'Ecommerce Web responsivo que emplea un JSON Server como backend, usa autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
     image: project1,
-    link: 'https://reactbootcamp.com'
+    deploy: '',
+    repo: 'https://reactbootcamp.com'
   },
   {
     title: 'React Tracks',
@@ -25,7 +28,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project2,
-    link: 'https://reactbootcamp.com'
+    deploy: '',
+    repo: 'https://reactbootcamp.com'
   },
   {
     title: 'DevChat',
@@ -33,7 +37,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project3,
-    link: 'https://reactbootcamp.com'
+    deploy: '',
+    repo: 'https://reactbootcamp.com'
   },
   {
     title: 'Epic Todo App',
@@ -41,7 +46,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project4,
-    link: 'https://reactbootcamp.com'
+    deploy: '',
+    repo: 'https://reactbootcamp.com'
   }
 ]
 
@@ -86,6 +92,14 @@ const skills = [
   {
     tool: 'Vite',
     icon: viteIcon
+  },
+  {
+    tool: 'HTML',
+    icon: htmlIcon
+  },
+  {
+    tool: 'CSS',
+    icon: cssIcon
   }
 ]
 
