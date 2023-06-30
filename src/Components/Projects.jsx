@@ -23,9 +23,9 @@ export default function Projects () {
             {projects.map((project) => (
               <div
                 key={project.image}
-                className='lg:w-1/2 w-100 p-4'
+                className='card-container lg:w-1/2 w-100 p-4'
               >
-                <div className='card-container flex relative items-center justify-center mix-w-[330px]'>
+                <div className='flex relative items-center justify-center mix-w-[330px]'>
                   <div className='card'>
                     <div className='face front'>
                       <img

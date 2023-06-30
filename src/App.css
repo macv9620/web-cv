@@ -43,15 +43,15 @@ body {
 
 }
 
-.card:not(:hover){
+.card-container:not(:hover){
   animation: opacity;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 
 .card-container:hover .card {
   transform:  rotateY(180deg) rotateZ(180deg);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .face {
