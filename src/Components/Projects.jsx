@@ -4,7 +4,7 @@ import { CodeIcon } from '../icons/CodeIcon'
 
 export default function Projects () {
   return (
-    <div id='projects'>
+    <div id='projects' className='scroll-my-[40px]'>
       <section className='text-gray-400 bg-gray-900 body-font'>
         <div className='container flex flex-col px-5 py-10 text-center lg:px-40 mx-auto'>
           <div className='flex flex-col w-full mb-10 items-center'>

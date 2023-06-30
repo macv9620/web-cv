@@ -45,7 +45,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
   }
 
   return (
-    <section id='contact' className='relative flex justify-center'>
+    <section id='contact' className='relative flex justify-center scroll-my-[40px]'>
       <div className='container flex px-5 py-10 flex sm:flex-nowrap flex-wrap max-w-screen-sm'>
         <form
           name='contact'

@@ -73,7 +73,7 @@ body {
   transform: rotateX(180deg);
 }
 
-/*:root {
+:root {
   --red: #E50914;
   --dark: #302c2c;
   --blue: #2C9FCC;
@@ -84,6 +84,6 @@ body {
   --orange1: #e9c46a;
   --orange2: #f4a261;
   --orange3: #e76f51;
-}*/
+}
 
 

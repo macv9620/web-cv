@@ -4,7 +4,7 @@ import { UsersIcon } from '../icons/UsersIcon.jsx'
 
 export default function Testimonials () {
   return (
-    <section id='testimonials'>
+    <section id='testimonials' className='scroll-my-[40px]'>
       <div className='w-full bg-gray-900'>
         <div className='max-w-[1300px] container px-5 py-10 mx-auto text-center flex flex-col items-center'>
           <UsersIcon className='w-10 inline-block mb-4' />

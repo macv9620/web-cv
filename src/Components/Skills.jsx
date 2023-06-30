@@ -3,7 +3,7 @@ import { ChipIcon } from '../icons/ChipIcon.jsx'
 
 const Skills = () => {
   return (
-    <section id='skills'>
+    <section id='skills' className='scroll-my-[40px]'>
       <div className='container px-5 py-10 mx-auto'>
         <div className='text-center mb-4 flex flex-col items-center'>
           <ChipIcon />
