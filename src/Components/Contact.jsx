@@ -29,7 +29,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
           setShowModalMessage(true)
           setModalMessageToShow({
             type: 'success',
-            message: 'Mail successfully sent. I will contact you soon'
+            message: '¡Correo enviado! Te contactaré en breve'
           })
         })
         .catch(error => {
@@ -38,7 +38,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
           setShowModalMessage(true)
           setModalMessageToShow({
             type: 'error',
-            message: 'Please try again in a moment'
+            message: 'Por favor intenta de nuevo en un momento'
           })
         })
     }, 3000)

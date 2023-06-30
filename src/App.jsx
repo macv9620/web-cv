@@ -15,8 +15,8 @@ function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)
   const [showModalMessage, setShowModalMessage] = useState(false)
   const [modalMessageToShow, setModalMessageToShow] = useState({
-    type: '',
-    message: ''
+    type: 'error',
+    message: 'lfslk ewiorj uewio ejiowerioui'
   })
   const [description, setDescription] = useState('')
 

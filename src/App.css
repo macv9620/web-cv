@@ -39,6 +39,7 @@ body {
   position: relative;
   width: 330px;
   height: 330px;
+  min-width: 330px;
   animation: opacity;
   animation-duration: 1s;
 }
@@ -65,9 +66,6 @@ body {
 
 }
 
-.face.front {
-
-}
 
 .face.back {
   transform: rotateX(180deg);

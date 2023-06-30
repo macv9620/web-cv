@@ -1,5 +1,5 @@
 .modal-message-background{
-    background: rgba(246, 246, 244, 0.2);
+    background: rgba(88, 88, 86, 0.6);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -23,17 +23,18 @@
 }
 
 .modal-message-container{
-    width: 250px;
-    height: 150px;
+    width: 330px;
+    height: 290px;
     background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     border-radius: 5px;
     animation-name: show-modal-message;
     animation-duration: 0.2s;
+    border: 1px solid black;
+    padding: 14px 0px;
 }
 
 @keyframes show-modal-message {

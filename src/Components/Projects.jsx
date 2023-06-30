@@ -22,9 +22,9 @@ export default function Projects () {
             {projects.map((project) => (
               <div
                 key={project.image}
-                className='sm:w-1/2 w-100 p-4'
+                className='lg:w-1/2 w-100 p-4'
               >
-                <div className='card-container flex relative items-center justify-center'>
+                <div className='card-container flex relative items-center justify-center mix-w-[330px]'>
                   <div className='card'>
                     <div className='face front'>
                       <img
