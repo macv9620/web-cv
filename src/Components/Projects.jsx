@@ -20,11 +20,12 @@ export default function Projects () {
             </p>
           </div>
           <div className='flex flex-wrap items-center justify-center max-w-[1500px]'>
-            {projects.map((project) => {
+            {projects.map((project, index) => {
+              // eslint-disable-next-line react-hooks/rules-of-hooks
               const [turn, setTurn] = useState(false)
               return (
                 <div
-                  key={project.image}
+                  key={index}
                   className={!turn ? 'turn-off lg:w-1/2 w-100 p-4' : 'card-container lg:w-1/2 w-100 p-4'}
                 >
                   <div className='flex relative items-center justify-center mix-w-[330px]'>

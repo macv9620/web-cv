@@ -15,28 +15,46 @@ import htmlIcon from '../assets/techIcons/html.png'
 const projects = [
   {
     title: 'Get Yours (ecommerce)',
-    techs: [reactIcon, htmlIcon, cssIcon, jsIcon, gitIcon, viteIcon],
+    techs: [reactIcon, jsIcon, gitIcon, viteIcon],
     description:
-      'Ecommerce Web responsivo que emplea un JSON Server como backend, usa autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
+      'Aplicación responsiva que emplea un JSON Server como backend, usa autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades.',
     image: project1,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
-    title: 'React Tracks',
-    techs: [jsIcon, reactIcon],
+    title: 'Hang Out',
+    techs: [reactIcon, jsIcon, gitIcon, viteIcon],
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+      'Permite la consulta de series en tendencia, calificaciones, resumen, temporadas, capitulos y personajes usando una API pública',
     image: project2,
+    deploy: 'https://your-show.netlify.app/',
+    repo: 'https://github.com/macv9620/react-movies-proyect.git'
+  },
+  {
+    title: 'ToDo',
+    techs: [reactIcon, jsIcon, gitIcon],
+    description:
+      'Aplicación para gestión de tareas, permite crear, editar, eliminar y manejar el estado de los "todo", emplea localStorage para persistencia de datos',
+    image: project3,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
-    title: 'DevChat',
-    techs: [jsIcon, reactIcon],
+    title: 'API Rest',
+    techs: [jsIcon, nodeIcon, expressIcon, gitIcon],
+    description:
+      'Api desarrollada en ExpressJS que soporta métodos POST, PUT, PATCH, DELETE, GET para la gestión de productos de un Ecommerce.',
+    image: project4,
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
+  },
+  {
+    title: 'World Movies',
+    techs: [jsIcon, htmlIcon, cssIcon, gitIcon],
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
-    image: project3,
+    image: project4,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
