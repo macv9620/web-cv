@@ -51,17 +51,22 @@ export default function Projects () {
                       <p className='leading-relaxed'>{project.description}</p>
                       <div className='flex justify-center self-center mt-4'>
                         <a
-                          href='#'
-                          className='self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#d8694d] rounded text-lg text-center'
+                          href={project.deploy}
+                          target='_blank'
+                          className='self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#d8694d] rounded text-lg text-center' rel='noreferrer'
                         >
                           Deploy
                         </a>
-                        <a
-                          href='#'
-                          className='ml-4 flex self-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-center'
-                        >
-                          Repositorio
-                        </a>
+                        <button>
+                          <a
+                            href={project.repo}
+                            target='_blank'
+                            className='ml-4 flex self-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-center' rel='noreferrer'
+                          >
+                            Repositorio
+                          </a>
+                        </button>
+
                       </div>
                     </div>
                   </div>

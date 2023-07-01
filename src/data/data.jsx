@@ -19,8 +19,8 @@ const projects = [
     description:
       'Ecommerce Web responsivo que emplea un JSON Server como backend, usa autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
     image: project1,
-    deploy: '',
-    repo: 'https://reactbootcamp.com'
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
     title: 'React Tracks',
@@ -28,8 +28,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project2,
-    deploy: '',
-    repo: 'https://reactbootcamp.com'
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
     title: 'DevChat',
@@ -37,8 +37,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project3,
-    deploy: '',
-    repo: 'https://reactbootcamp.com'
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
     title: 'Epic Todo App',
@@ -46,8 +46,8 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
     image: project4,
-    deploy: '',
-    repo: 'https://reactbootcamp.com'
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   }
 ]
 

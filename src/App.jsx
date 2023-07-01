@@ -9,7 +9,7 @@ import { HashLoaderModal } from './Components/spinner/HashLoaderModal'
 import { ModalMessage } from './Components/modalMessage/ModalMessage'
 import Navbar from './Components/navbar/Navbar'
 import { ScrollTopButton } from './Components/scrollTop/ScrollTopButton'
-// import axios from 'axios'
+import axios from 'axios'
 
 function App () {
   const [showLoaderSpinner, setShowLoaderSpinner] = useState(false)

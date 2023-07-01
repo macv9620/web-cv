@@ -3,20 +3,22 @@ import React from 'react'
 const Turn = () => {
   return (
     <div className=''>
-      <div className='fixed bg-[#2a9d8f] top-2 right-2 p-2 rounded-full shadow-7xl'>
+      <div className='fixed bg-white top-2 right-2 p-1 rounded-full shadow-7xl'>
         <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
+          className='h-5 w-5 text-red-500'
+          width='24'
+          height='24'
           viewBox='0 0 24 24'
-          strokeWidth='1.5'
-          stroke='white'
-          className='w-6 h-6'
+          strokeWidth='2'
+          stroke='black'
+          fill='none'
+          strokeLinecap='round'
+          strokeLinejoin='round'
         >
-          <path
-            strokeLinecap='round'
-            strokeLinejoin='round'
-            d='M15 15l6-6m0 0l-6-6m6 6H9a6 6 0 000 12h3'
-          />
+          {' '}
+          <path stroke='none' d='M0 0h24v24H0z' />{' '}
+          <path d='M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -5v5h5' />{' '}
+          <path d='M4 13a8.1 8.1 0 0 0 15.5 2m.5 5v-5h-5' />
         </svg>
       </div>
     </div>
