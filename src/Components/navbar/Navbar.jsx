@@ -24,7 +24,7 @@ export default function Navbar () {
         </nav>
         <a
           href='https://www.linkedin.com/in/mateo-alejandro-castaño-vasco-702555153'
-          target='blank'
+          target='self'
           className='flex gap-2 items-center bg-gray-800 border-0  focus:outline-none hover:bg-[#e76f51] hover:text-white md:px-4 md:py-1 hover:transition duration-1000 rounded text-base md:mt-0'
         >
           <span className='hidden md:flex'>Contáctame</span>

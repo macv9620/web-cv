@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { projects } from '../data/data.jsx'
 import { CodeIcon } from '../icons/CodeIcon'
 import { Turn } from '../icons/Turn.jsx'
@@ -20,59 +20,77 @@ export default function Projects () {
             </p>
           </div>
           <div className='flex flex-wrap items-center justify-center max-w-[1500px]'>
-            {projects.map((project) => (
-              <div
-                key={project.image}
-                className='card-container lg:w-1/2 w-100 p-4'
-              >
-                <div className='flex relative items-center justify-center mix-w-[330px]'>
-                  <div className='card'>
-                    <div className='face front'>
-                      <img
-                        alt='gallery'
-                        className='absolute inset-0 w-full h-full object-cover object-center'
-                        src={project.image}
-                      />
-                      <Turn />
-                    </div>
-                    <div className='face back px-8 py-10 z-8 w-full border-4 border-gray-800 bg-gray-900 flex flex-col items-center justify-center'>
-                      <div className='flex justify-center gap-4 pb-2'>
-                        {project.techs.map((tech, index) => {
-                          return (
-                            <div className='w-4' key={index}>
-                              <img src={tech} />
-                            </div>
-                          )
-                        })}
+            {projects.map((project) => {
+              const [turn, setTurn] = useState(false)
+              return (
+                <div
+                  key={project.image}
+                  className={!turn ? 'turn-off lg:w-1/2 w-100 p-4' : 'card-container lg:w-1/2 w-100 p-4'}
+                >
+                  <div className='flex relative items-center justify-center mix-w-[330px]'>
+                    <div className='card'>
+                      <div className='face back'>
+                        <img
+                          alt='gallery'
+                          className='absolute inset-0 w-full h-full object-contain object-center'
+                          src={project.image}
+                        />
+                        <Turn
+                          turnSide={(e) => {
+                            setTurn(!turn)
+                            e.stopPropagation()
+                          }}
+                        />
                       </div>
-                      <h1 className='title-font text-lg font-medium text-white mb-3'>
-                        {project.title}
-                      </h1>
-                      <p className='leading-relaxed'>{project.description}</p>
-                      <div className='flex justify-center self-center mt-4'>
-                        <a
-                          href={project.deploy}
-                          target='_blank'
-                          className='self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#d8694d] rounded text-lg text-center' rel='noreferrer'
-                        >
-                          Deploy
-                        </a>
-                        <button>
+                      <div className='face front px-8 py-10 z-8 w-full border-4 border-gray-800 bg-gray-900 flex flex-col items-center justify-center'>
+                        <Turn
+                          turnSide={(e) => {
+                            setTurn(!turn)
+                            e.stopPropagation()
+                          }}
+                        />
+                        <div className='flex justify-center gap-4 pb-2'>
+                          {project.techs.map((tech, index) => {
+                            return (
+                              <div className='w-4' key={index}>
+                                <img src={tech} />
+                              </div>
+                            )
+                          })}
+                        </div>
+                        <h1 className='title-font text-lg font-medium text-white mb-3'>
+                          {project.title}
+                        </h1>
+                        <p className='leading-relaxed'>{project.description}</p>
+                        <div className='flex justify-center self-center mt-4'>
                           <a
-                            href={project.repo}
+                            href={project.deploy}
                             target='_blank'
-                            className='ml-4 flex self-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-center' rel='noreferrer'
+                            className='self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#d8694d] rounded text-lg text-center'
+                            rel='noreferrer'
+                            onClick={(e) => e.stopPropagation()}
                           >
-                            Repositorio
+                            Deploy
                           </a>
-                        </button>
+                          <button>
+                            <a
+                              href={project.repo}
+                              target='_blank'
+                              className='ml-4 flex self-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg text-center'
+                              rel='noreferrer'
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              Repositorio
+                            </a>
+                          </button>
 
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>

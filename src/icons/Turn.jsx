@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Turn = () => {
+const Turn = ({turnSide}) => {
   return (
-    <div className=''>
-      <div className='fixed bg-white top-2 right-2 p-1 rounded-full shadow-7xl'>
+    <div className='' onClick={turnSide}>
+      <div className='fixed bg-white top-2 right-2 p-1 rounded-full shadow-7xl opacity-40'>
         <svg
           className='h-5 w-5 text-red-500'
           width='24'
