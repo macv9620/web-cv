@@ -34,7 +34,7 @@ const ModalMessage = ({ setShowModalMessage, modalMessageToShow }) => {
               : 'self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#e76f51] rounded text-lg text-center'}
             onClick={hideModal}
           >
-            Accept
+            Aceptar
           </button>
         </div>
       </div>

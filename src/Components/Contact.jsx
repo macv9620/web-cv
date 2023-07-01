@@ -46,7 +46,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
 
   return (
     <section id='contact' className='relative flex justify-center scroll-my-[40px]'>
-      <div className='container flex px-5 py-10 flex sm:flex-nowrap flex-wrap max-w-screen-sm'>
+      <div className='container flex px-5 py-6 flex sm:flex-nowrap flex-wrap max-w-screen-sm'>
         <form
           name='contact'
           onSubmit={handleSubmit}
@@ -56,11 +56,11 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
             Hablemos
           </h2>
           <p className='leading-relaxed mb-5 text-[#6b6767] text-center'>
-            Deja tus datos y estaré complacido de contactarte a la mayor brevedad.
+            Deja tus datos y estaré complacido de contactarte.
           </p>
           <div className='relative mb-4'>
             <label htmlFor='name' className='leading-7 text-sm text-[#6b6767]'>
-              Name
+              Nombre
             </label>
             <input
               type='text'
@@ -74,7 +74,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
           </div>
           <div className='relative mb-4'>
             <label htmlFor='email' className='leading-7 text-sm text-[#6b6767]'>
-              Your Email
+              Correo electrónico
             </label>
             <input
               type='email'
@@ -91,7 +91,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
               htmlFor='message'
               className='leading-7 text-sm text-[#6b6767]'
             >
-              Message
+              Mensaje
             </label>
             <textarea
               id='message'
@@ -99,14 +99,14 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
               required
               value={dataForm.message}
               onChange={handleChange}
-              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black h-32 text-base outline-none text-[#6b6767] py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+              className='w-full bg-white rounded border border-gray-700 focus:border-black focus:ring-2 focus:transition transition focus:ring-black h-20 text-base outline-none text-[#6b6767] py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
             />
           </div>
           <button
             type='submit'
             className='text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none transition hover:transition hover:bg-[#d8694d] rounded text-lg'
           >
-            Submit
+            Enviar
           </button>
         </form>
       </div>

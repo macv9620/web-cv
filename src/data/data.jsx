@@ -73,23 +73,25 @@ const projects = [
 const testimonials = [
   {
     quote: [
-      'Labor 1',
-      'Labor 2',
-      'Labor 3'
+      'Formular, evaluar y ejecutar proyectos',
+      'Documentar requerimientos de Software',
+      'Preparar y ejecutar pruebas de de Software',
+      'Coordinar implementaciones de Software'
     ],
     image: 'https://pbs.twimg.com/profile_images/1542549521275752450/b2ZIy6aX_400x400.jpg',
     name: 'Analista de Proyectos',
-    company: 'Audifarma'
+    company: 'Audifarma S.A'
   },
   {
     quote: [
-      'Labor 1',
-      'Labor 2',
-      'Labor 3'
+      'Análisis de costos',
+      'Auditoría a inventarios',
+      'Construcción de indicadores',
+      'Análisis de datos'
     ],
     image: 'https://pbs.twimg.com/profile_images/2198784231/Logo_P_negro_copia_400x400.jpg',
     name: 'Analista y Auditor de Inventarios',
-    company: 'Pentagrama'
+    company: 'Pentagrama S.A'
   }
 ]
 
