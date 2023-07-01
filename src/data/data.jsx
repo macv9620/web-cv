@@ -11,13 +11,14 @@ import gitIcon from '../assets/techIcons/git.png'
 import viteIcon from '../assets/techIcons/vite.png'
 import cssIcon from '../assets/techIcons/css.png'
 import htmlIcon from '../assets/techIcons/html.png'
+import axiosIcon from '../assets/techIcons/axios.png'
 
 const projects = [
   {
     title: 'Get Yours (ecommerce)',
-    techs: [reactIcon, jsIcon, gitIcon, viteIcon],
+    techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
     description:
-      'Aplicación responsiva que emplea un JSON Server como backend, usa autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades.',
+      'Aplicación responsiva que usa JSON Server, autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
     image: project1,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
@@ -35,7 +36,7 @@ const projects = [
     title: 'ToDo',
     techs: [reactIcon, jsIcon, gitIcon],
     description:
-      'Aplicación para gestión de tareas, permite crear, editar, eliminar y manejar el estado de los "todo", emplea localStorage para persistencia de datos',
+      'Aplicación para gestión de tareas, permite crear, editar, eliminar y manejar el estado de los "To Do", emplea localStorage para persistencia de datos',
     image: project3,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
@@ -51,18 +52,18 @@ const projects = [
   },
   {
     title: 'World Movies',
-    techs: [jsIcon, htmlIcon, cssIcon, gitIcon],
+    techs: [jsIcon, htmlIcon, cssIcon, gitIcon, axiosIcon],
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+      'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma.',
     image: project4,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
   {
-    title: 'Epic Todo App',
-    techs: [jsIcon, reactIcon],
+    title: 'Wikipedia',
+    techs: [htmlIcon, cssIcon, gitIcon],
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+      'Clon responsivo de la Wikipedia Landing Page',
     image: project4,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
@@ -71,15 +72,21 @@ const projects = [
 
 const testimonials = [
   {
-    quote:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+    quote: [
+      'Labor 1',
+      'Labor 2',
+      'Labor 3'
+    ],
     image: 'https://pbs.twimg.com/profile_images/1542549521275752450/b2ZIy6aX_400x400.jpg',
     name: 'Analista de Proyectos',
     company: 'Audifarma'
   },
   {
-    quote:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.',
+    quote: [
+      'Labor 1',
+      'Labor 2',
+      'Labor 3'
+    ],
     image: 'https://pbs.twimg.com/profile_images/2198784231/Logo_P_negro_copia_400x400.jpg',
     name: 'Analista y Auditor de Inventarios',
     company: 'Pentagrama'

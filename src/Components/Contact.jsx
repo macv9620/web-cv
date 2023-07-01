@@ -52,12 +52,11 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
           onSubmit={handleSubmit}
           className='flex flex-col w-full md:py-8 mt-8 md:mt-0'
         >
-          <h2 className='text-gray-800 sm:text-4xl text-3xl mb-1 font-medium title-font'>
+          <h2 className='text-gray-800 sm:text-4xl text-3xl mb-1 font-medium title-font text-center'>
             Hablemos
           </h2>
-          <p className='leading-relaxed mb-5 text-[#6b6767]'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+          <p className='leading-relaxed mb-5 text-[#6b6767] text-center'>
+            Deja tus datos y estaré complacido de contactarte a la mayor brevedad.
           </p>
           <div className='relative mb-4'>
             <label htmlFor='name' className='leading-7 text-sm text-[#6b6767]'>

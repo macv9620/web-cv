@@ -20,12 +20,12 @@ function App () {
   })
   const [description, setDescription] = useState('')
 
-  // useEffect(() => {
-  //   console.log('Levantando servicio...')
-  //   axios('https://get-yours.onrender.com/users')
-  //     .then(res => console.log(res))
-  //     .catch(err => console.log(err))
-  // }, [])
+  useEffect(() => {
+    console.log('Levantando servicio...')
+    axios('https://get-yours.onrender.com/users')
+      .then(res => console.log(res))
+      .catch(err => console.log(err))
+  }, [])
 
   return (
     <>

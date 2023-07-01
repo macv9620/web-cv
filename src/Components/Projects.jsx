@@ -1,22 +1,20 @@
 import React, { useState } from 'react'
 import { projects } from '../data/data.jsx'
-import { CodeIcon } from '../icons/CodeIcon'
 import { Turn } from '../icons/Turn.jsx'
+import { Pc } from '../icons/Pc.jsx'
 
 export default function Projects () {
   return (
     <div id='projects' className='scroll-my-[40px]'>
       <section className='text-gray-400 bg-gray-900 body-font'>
-        <div className='container flex flex-col px-5 py-10 text-center lg:px-40 mx-auto'>
+        <div className='container flex flex-col px-5 py-10 text-center lg:max-w-[1200px] lg:px-40 mx-auto'>
           <div className='flex flex-col w-full mb-10 items-center'>
-            <CodeIcon className='w-10 mb-4' />
+            <Pc className='w-10 mb-4' />
             <h1 className='sm:text-4xl text-3xl font-medium title-font mb-2 text-white'>
-              Aplicaciones que he construido
+              Aplicaciones desarrolladas
             </h1>
             <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-              facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-              fuga dolore.
+              Gira las cartas para ver un demo, consulta en cada repositorio el Readme para más detalle.
             </p>
           </div>
           <div className='flex flex-wrap items-center justify-center max-w-[1500px]'>
@@ -50,7 +48,7 @@ export default function Projects () {
                             e.stopPropagation()
                           }}
                         />
-                        <div className='flex justify-center gap-4 pb-2'>
+                        <div className='flex justify-center gap-4 pb-2 items-center'>
                           {project.techs.map((tech, index) => {
                             return (
                               <div className='w-4' key={index}>

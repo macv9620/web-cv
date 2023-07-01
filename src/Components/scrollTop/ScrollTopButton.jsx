@@ -9,7 +9,7 @@ const ScrollTopButton = () => {
         viewBox='0 0 24 24'
         strokeWidth='1.5'
         stroke='currentColor'
-        className='w-6 h-6'
+        className='w-[30px] h-[30px]'
       >
         <path
           strokeLinecap='round'
