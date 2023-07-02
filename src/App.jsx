@@ -16,7 +16,7 @@ function App () {
   const [showModalMessage, setShowModalMessage] = useState(false)
   const [modalMessageToShow, setModalMessageToShow] = useState({
     type: 'error',
-    message: 'lfslk ewiorj uewio ejiowerioui'
+    message: ''
   })
   const [description, setDescription] = useState('')
 

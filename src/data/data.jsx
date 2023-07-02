@@ -1,4 +1,3 @@
-import project1 from '../assets/projects/project-1.gif'
 import project2 from '../assets/projects/project-2.gif'
 import project3 from '../assets/projects/project-3.gif'
 import project4 from '../assets/projects/project-4.gif'
@@ -19,7 +18,7 @@ const projects = [
     techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
     description:
       'Aplicación responsiva que usa JSON Server, autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
-    image: project1,
+    image: 'https://i.ibb.co/cx22Z4W/d004b5020ef2.gif',
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
