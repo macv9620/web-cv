@@ -1,6 +1,7 @@
-import project2 from '../assets/projects/project-2.gif'
 import project3 from '../assets/projects/project-3.gif'
 import project4 from '../assets/projects/project-4.gif'
+import getYours from '../assets/projects/getYours.gif'
+import hangOut from '../assets/projects/hangOut.gif'
 
 import jsIcon from '../assets/techIcons/js.png'
 import reactIcon from '../assets/techIcons/react.png'
@@ -18,7 +19,7 @@ const projects = [
     techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
     description:
       'Aplicación responsiva que usa JSON Server, autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
-    image: 'https://i.ibb.co/cx22Z4W/d004b5020ef2.gif',
+    image: getYours,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git'
   },
@@ -27,7 +28,7 @@ const projects = [
     techs: [reactIcon, jsIcon, gitIcon, viteIcon],
     description:
       'Permite la consulta de series en tendencia, calificaciones, resumen, temporadas, capitulos y personajes usando una API pública',
-    image: 'https://i.ibb.co/LRKb6f5/8e5e1087e7a9.gif',
+    image: hangOut,
     deploy: 'https://your-show.netlify.app/',
     repo: 'https://github.com/macv9620/react-movies-proyect.git'
   },
