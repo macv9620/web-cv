@@ -27,7 +27,7 @@ const projects = [
     techs: [reactIcon, jsIcon, gitIcon, viteIcon],
     description:
       'Permite la consulta de series en tendencia, calificaciones, resumen, temporadas, capitulos y personajes usando una API pública',
-    image: project2,
+    image: 'https://i.ibb.co/LRKb6f5/8e5e1087e7a9.gif',
     deploy: 'https://your-show.netlify.app/',
     repo: 'https://github.com/macv9620/react-movies-proyect.git'
   },
