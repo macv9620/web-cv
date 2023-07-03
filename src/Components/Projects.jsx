@@ -29,6 +29,7 @@ export default function Projects () {
                   <div className='flex relative items-center justify-center mix-w-[330px]'>
                     <div className='card'>
                       <div className='face back'>
+
                         <img
                           alt='gallery'
                           className='absolute inset-0 w-full h-full object-contain object-center'
@@ -42,12 +43,15 @@ export default function Projects () {
                         />
                       </div>
                       <div className='face front px-8 py-10 z-8 w-full border-4 border-gray-800 bg-gray-900 flex flex-col items-center justify-center'>
-                        <Turn
-                          turnSide={(e) => {
-                            setTurn(!turn)
-                            e.stopPropagation()
-                          }}
-                        />
+                        {project.title === 'API Rest'
+                          ? null
+                          : <Turn
+                              turnSide={(e) => {
+                                setTurn(!turn)
+                                e.stopPropagation()
+                              }}
+                            />}
+
                         <div className='flex justify-center gap-4 pb-2 items-center'>
                           {project.techs.map((tech, index) => {
                             return (

@@ -2,6 +2,7 @@ import project3 from '../assets/projects/project-3.gif'
 import project4 from '../assets/projects/project-4.gif'
 import getYours from '../assets/projects/getYours.gif'
 import hangOut from '../assets/projects/hangOut.gif'
+import todo from '../assets/projects/ToDo.gif'
 
 import jsIcon from '../assets/techIcons/js.png'
 import reactIcon from '../assets/techIcons/react.png'
@@ -37,9 +38,9 @@ const projects = [
     techs: [reactIcon, jsIcon, gitIcon],
     description:
       'Aplicación para gestión de tareas, permite crear, editar, eliminar y manejar el estado de los "To Do", emplea localStorage para persistencia de datos',
-    image: project3,
-    deploy: 'https://get-yours.netlify.app/',
-    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
+    image: todo,
+    deploy: 'https://dontforgetit.netlify.app/',
+    repo: 'https://github.com/macv9620/React-ToDo-App.git'
   },
   {
     title: 'API Rest',
@@ -47,8 +48,8 @@ const projects = [
     description:
       'Api desarrollada en ExpressJS que soporta métodos POST, PUT, PATCH, DELETE, GET para la gestión de productos de un Ecommerce.',
     image: project4,
-    deploy: 'https://get-yours.netlify.app/',
-    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
+    deploy: 'https://productsapi-euyr.onrender.com/API/v1/products',
+    repo: 'https://github.com/macv9620/1-ExpressJS-API.git'
   },
   {
     title: 'World Movies',

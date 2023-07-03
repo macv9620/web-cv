@@ -16,7 +16,6 @@ const About = ({ description, setDescription }) => {
         stepPrint.push(message[i])
         i++
         string = stepPrint.join('')
-        console.log('Ejecutando interval')
         setDescription(string)
       } else {
         clearInterval(timeRender)

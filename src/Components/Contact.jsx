@@ -18,12 +18,10 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(dataForm)
     setShowLoaderSpinner(true)
     setTimeout(() => {
       emailjs.sendForm('service_v3tmfis', 'template_93elmbn', e.target, 'IShr0lkfuk1OoQPEU')
         .then(res => {
-          console.log(res)
           setDataForm(formTemplate)
           setShowLoaderSpinner(false)
           setShowModalMessage(true)
