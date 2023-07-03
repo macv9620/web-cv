@@ -57,8 +57,8 @@ const projects = [
     description:
       'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma.',
     image: project4,
-    deploy: 'https://get-yours.netlify.app/',
-    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
+    deploy: 'https://macv9620.github.io/proyecto-consumo-api/',
+    repo: 'https://github.com/macv9620/proyecto-consumo-api.git'
   },
   {
     title: 'Wikipedia',
