@@ -22,11 +22,11 @@ function App () {
 
   useEffect(() => {
     axios('https://get-yours.onrender.com/users')
-      .then(res => console.log(res))
+      .then(res => console.log('Ok'))
       .catch(err => console.log(err))
 
     axios('https://productsapi-euyr.onrender.com/API/v1/products')
-      .then(res => console.log(res))
+      .then(res => console.log('Ok'))
       .catch(err => console.log(err))
   }, [])
 

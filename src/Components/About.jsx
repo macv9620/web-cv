@@ -3,7 +3,7 @@ import aboutImage from '../assets/aboutImage.svg'
 
 // eslint-disable-next-line react/prop-types
 const About = ({ description, setDescription }) => {
-  const message = 'Ingeniero Industrial y desarrollador Web en formación, apasionado por proyectos tecnológicos, la Web y todo lo que gira en torno a la tecnología.'
+  const message = 'Ingeniero Industrial y desarrollador Web Junior, apasionado por proyectos tecnológicos, la Web y todo lo que gira en torno a la tecnología.'
 
   useEffect(() => {
     let i = 0
@@ -30,10 +30,11 @@ const About = ({ description, setDescription }) => {
           <h1 className='self-center title-font sm:text-4xl text-3xl font-medium text-gray-800 text-center'>
             Hola, soy Mateo
           </h1>
-          <span className='text-xl text-gray-800 py-2 text-center'>Disfruto construir aplicaciones web.</span>
-          <p className='md:mb-10 lg:mb-14 mb-12 leading-relaxed text-justify text-[#6b6767] h-16'>
+
+          <p className='md:mb-10 lg:mb-14 mb-10 leading-relaxed text-justify text-[#6b6767] h-16'>
             {description}
           </p>
+          <span className='text-xl text-gray-800 py-2 text-center'>¡Disfruto construir aplicaciones web!</span>
           <div className='flex justify-center self-center'>
             <a
               href='#contact'

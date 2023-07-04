@@ -1,8 +1,9 @@
-import project3 from '../assets/projects/project-3.gif'
+import worldMovies from '../assets/projects/worldMovies.gif'
 import project4 from '../assets/projects/project-4.gif'
 import getYours from '../assets/projects/getYours.gif'
 import hangOut from '../assets/projects/hangOut.gif'
 import todo from '../assets/projects/ToDo.gif'
+import wikipedia from '../assets/projects/wikipedia.gif'
 
 import jsIcon from '../assets/techIcons/js.png'
 import reactIcon from '../assets/techIcons/react.png'
@@ -34,6 +35,15 @@ const projects = [
     repo: 'https://github.com/macv9620/react-movies-proyect.git'
   },
   {
+    title: 'World Movies',
+    techs: [jsIcon, htmlIcon, cssIcon, gitIcon, axiosIcon],
+    description:
+      'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma.',
+    image: worldMovies,
+    deploy: 'https://macv9620.github.io/proyecto-consumo-api/',
+    repo: 'https://github.com/macv9620/proyecto-consumo-api.git'
+  },
+  {
     title: 'ToDo',
     techs: [reactIcon, jsIcon, gitIcon],
     description:
@@ -47,27 +57,18 @@ const projects = [
     techs: [jsIcon, nodeIcon, expressIcon, gitIcon],
     description:
       'Api desarrollada en ExpressJS que soporta métodos POST, PUT, PATCH, DELETE, GET para la gestión de productos de un Ecommerce.',
-    image: project4,
+    image: '',
     deploy: 'https://productsapi-euyr.onrender.com/API/v1/products',
     repo: 'https://github.com/macv9620/1-ExpressJS-API.git'
-  },
-  {
-    title: 'World Movies',
-    techs: [jsIcon, htmlIcon, cssIcon, gitIcon, axiosIcon],
-    description:
-      'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma.',
-    image: project4,
-    deploy: 'https://macv9620.github.io/proyecto-consumo-api/',
-    repo: 'https://github.com/macv9620/proyecto-consumo-api.git'
   },
   {
     title: 'Wikipedia',
     techs: [htmlIcon, cssIcon, gitIcon],
     description:
       'Clon responsivo de la Wikipedia Landing Page',
-    image: project4,
-    deploy: 'https://get-yours.netlify.app/',
-    repo: 'https://github.com/macv9620/react-ecommerce-project.git'
+    image: wikipedia,
+    deploy: 'https://macv9620.github.io/Wikipedia-Clone/',
+    repo: 'https://github.com/macv9620/Wikipedia-Clone'
   }
 ]
 
@@ -81,7 +82,7 @@ const testimonials = [
     ],
     image: 'https://pbs.twimg.com/profile_images/1542549521275752450/b2ZIy6aX_400x400.jpg',
     name: 'Analista de Proyectos',
-    company: 'Audifarma S.A'
+    company: 'Audifarma S.A (actual)'
   },
   {
     quote: [

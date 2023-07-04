@@ -11,7 +11,7 @@ export default function Projects () {
           <div className='flex flex-col w-full mb-10 items-center'>
             <Pc className='w-10 mb-4' />
             <h1 className='sm:text-4xl text-3xl font-medium title-font mb-2 text-white'>
-              Aplicaciones desarrolladas
+              Aplicaciones responsive desarrolladas
             </h1>
             <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
               Gira las cartas para ver un demo, consulta en cada repositorio el Readme para más detalle.
