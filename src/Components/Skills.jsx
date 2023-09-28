@@ -11,7 +11,7 @@ const Skills = () => {
             Tecnologías implementadas
           </h1>
           <p className='text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-[#6b6767]'>
-            A lo largo del desarrollo de proyectos personales he fortalecido mis conocimientos en las siguientes tecnologías:
+            A lo largo del desarrollo de proyectos tanto en Front como en Back, he fortalecido mis conocimientos en las siguientes tecnologías:
           </p>
         </div>
         <div className='flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2'>

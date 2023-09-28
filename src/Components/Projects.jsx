@@ -14,7 +14,7 @@ export default function Projects () {
               Aplicaciones responsive desarrolladas
             </h1>
             <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
-              Gira las cartas para ver un demo, consulta en cada repositorio el Readme para más detalle.
+              Gira las cartas para ver un demo en las aplicaciones Front, consulta en cada repositorio el Readme para más detalle.
             </p>
           </div>
           <div className='flex flex-wrap items-center justify-center max-w-[1500px]'>
@@ -43,7 +43,7 @@ export default function Projects () {
                         />
                       </div>
                       <div className='face front px-8 py-10 z-8 w-full border-4 border-gray-800 bg-gray-900 flex flex-col items-center justify-center'>
-                        {project.title === 'API Rest'
+                        {project.isApi
                           ? null
                           : <Turn
                               turnSide={(e) => {
@@ -55,7 +55,7 @@ export default function Projects () {
                         <div className='flex justify-center gap-4 pb-2 items-center'>
                           {project.techs.map((tech, index) => {
                             return (
-                              <div className='w-4' key={index}>
+                              <div className='w-6' key={index}>
                                 <img src={tech} />
                               </div>
                             )
@@ -73,7 +73,7 @@ export default function Projects () {
                             rel='noreferrer'
                             onClick={(e) => e.stopPropagation()}
                           >
-                            Deploy
+                            Ver
                           </a>
                           <button>
                             <a

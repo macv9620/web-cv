@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import aboutImage from '../assets/aboutImage.svg'
+import aboutImage2 from '../assets/aboutImage2.svg'
 
 // eslint-disable-next-line react/prop-types
 const About = ({ description, setDescription }) => {
@@ -38,7 +39,7 @@ const About = ({ description, setDescription }) => {
           <div className='flex justify-center self-center'>
             <a
               href='#contact'
-              className='self-center h-full flex text-white bg-[#2a9d8f] border-0 py-2 px-6 focus:outline-none hover:bg-[#2a857a] rounded text-lg text-center'
+              className='self-center h-full flex text-white bg-[#e76f51] border-0 py-2 px-6 focus:outline-none hover:bg-[#d8694d] rounded text-lg text-center'
             >
               ¡Hablemos!
             </a>
@@ -54,7 +55,7 @@ const About = ({ description, setDescription }) => {
           <img
             className='object-cover object-center rounded'
             alt='hero'
-            src={aboutImage}
+            src={aboutImage2}
           />
         </div>
       </div>

@@ -1,5 +1,4 @@
 import { testimonials } from '../data/data.jsx'
-import { TerminalIcon } from '../icons/TerminalIcon'
 import { UsersIcon } from '../icons/UsersIcon.jsx'
 
 export default function Testimonials () {
@@ -39,8 +38,11 @@ export default function Testimonials () {
                       })}
                     </ul>
                   </div>
-
+                  <div>
+                    <h3 className='text-xs font-medium'>{testimonial.date}</h3>
+                  </div>
                 </div>
+
               </div>
             ))}
           </div>

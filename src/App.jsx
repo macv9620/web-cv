@@ -28,6 +28,10 @@ function App () {
     axios('https://productsapi-euyr.onrender.com/API/v1/products')
       .then(res => console.log('Ok'))
       .catch(err => console.log(err))
+
+    axios('https://market-spring-api.onrender.com/products/all')
+      .then(res => console.log('Ok'))
+      .catch(err => console.log(err))
   }, [])
 
   return (
