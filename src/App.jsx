@@ -21,6 +21,11 @@ function App () {
   const [description, setDescription] = useState('')
 
   useEffect(() => {
+    setShowLoaderSpinner(true)
+
+    setTimeout(() => {
+      setShowLoaderSpinner(false)
+    }, 2500)
     axios('https://get-yours.onrender.com/users')
       .then(res => console.log('Ok'))
       .catch(err => console.log(err))

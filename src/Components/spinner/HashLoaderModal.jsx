@@ -7,7 +7,7 @@ const HashLoaderModal = () => {
       className='spinner-background'
     >
       <HashLoader
-        color='#2a9d8f'
+        color='#e76f51'
         loading
       />
     </div>

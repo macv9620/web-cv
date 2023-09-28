@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import aboutImage from '../assets/aboutImage.svg'
 import aboutImage2 from '../assets/aboutImage2.svg'
 
 // eslint-disable-next-line react/prop-types
@@ -12,16 +11,18 @@ const About = ({ description, setDescription }) => {
     const stepPrint = []
     let string
 
-    const timeRender = setInterval(() => {
-      if (i < up) {
-        stepPrint.push(message[i])
-        i++
-        string = stepPrint.join('')
-        setDescription(string)
-      } else {
-        clearInterval(timeRender)
-      }
-    }, 30)
+    setTimeout(() => {
+      const timeRender = setInterval(() => {
+        if (i < up) {
+          stepPrint.push(message[i])
+          i++
+          string = stepPrint.join('')
+          setDescription(string)
+        } else {
+          clearInterval(timeRender)
+        }
+      }, 30)
+    }, 2700)
   }, [])
 
   return (

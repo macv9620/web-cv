@@ -13,7 +13,7 @@ import viteIcon from '../assets/techIcons/vite.png'
 import cssIcon from '../assets/techIcons/css.png'
 import htmlIcon from '../assets/techIcons/html.png'
 import axiosIcon from '../assets/techIcons/axios.png'
-import javaIcon from '../assets/techIcons/java.jpg'
+import javaIcon from '../assets/techIcons/java2.png'
 import springBootIcon from '../assets/techIcons/springBoot.svg'
 import aws from '../assets/techIcons/aws.png'
 import postgresql from '../assets/techIcons/postgresql.png'
@@ -22,16 +22,6 @@ import docker from '../assets/techIcons/docker.png'
 
 const projects = [
   {
-    title: 'Get Yours (ecommerce)',
-    techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
-    description:
-      'Aplicación responsiva que usa JSON Server, autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
-    image: getYours,
-    deploy: 'https://get-yours.netlify.app/',
-    repo: 'https://github.com/macv9620/react-ecommerce-project.git',
-    isApi: false
-  },
-  {
     title: 'Hang Out',
     techs: [reactIcon, jsIcon, gitIcon, viteIcon],
     description:
@@ -39,6 +29,16 @@ const projects = [
     image: hangOut,
     deploy: 'https://your-show.netlify.app/',
     repo: 'https://github.com/macv9620/react-movies-proyect.git',
+    isApi: false
+  },
+  {
+    title: 'Get Yours (ecommerce)',
+    techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
+    description:
+      'Aplicación responsiva que usa JSON Server, autenticación JWT, manejo de sesión y perfiles de usuario para el control de acceso y funcionalidades',
+    image: getYours,
+    deploy: 'https://get-yours.netlify.app/',
+    repo: 'https://github.com/macv9620/react-ecommerce-project.git',
     isApi: false
   },
   {
