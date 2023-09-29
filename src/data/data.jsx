@@ -22,16 +22,6 @@ import docker from '../assets/techIcons/docker.png'
 
 const projects = [
   {
-    title: 'Hang Out',
-    techs: [reactIcon, jsIcon, gitIcon, viteIcon],
-    description:
-      'Permite la consulta de series en tendencia, calificaciones, resumen, temporadas, capitulos y personajes usando una API pública',
-    image: hangOut,
-    deploy: 'https://your-show.netlify.app/',
-    repo: 'https://github.com/macv9620/react-movies-proyect.git',
-    isApi: false
-  },
-  {
     title: 'Get Yours (ecommerce)',
     techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
     description:
@@ -39,6 +29,16 @@ const projects = [
     image: getYours,
     deploy: 'https://get-yours.netlify.app/',
     repo: 'https://github.com/macv9620/react-ecommerce-project.git',
+    isApi: false
+  },
+  {
+    title: 'Hang Out',
+    techs: [reactIcon, jsIcon, gitIcon, viteIcon],
+    description:
+      'Permite la consulta de series en tendencia, calificaciones, resumen, temporadas, capitulos y personajes usando una API pública',
+    image: hangOut,
+    deploy: 'https://your-show.netlify.app/',
+    repo: 'https://github.com/macv9620/react-movies-proyect.git',
     isApi: false
   },
   {

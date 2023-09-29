@@ -1,0 +1,17 @@
+.turn-button-animation {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Estilo de sombra, puedes personalizarlo */
+    cursor: pointer;
+  
+    /* Aplicamos la animación */
+    animation: shadowAnimation 0.8s infinite alternate;
+  }
+  
+  /* Definimos la animación con @keyframes */
+  @keyframes shadowAnimation {
+    0% {
+      box-shadow: 0 0 30px rgb(252, 252, 252); /* Estado inicial */
+    }
+    100% {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); /* Estado final */
+    }
+  }

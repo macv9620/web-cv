@@ -1,9 +1,10 @@
 import React from 'react'
+import './Turn.css'
 
 const Turn = ({turnSide}) => {
   return (
     <div className='' onClick={turnSide}>
-      <div className='fixed bg-white top-2 right-2 p-1 rounded-full shadow-7xl opacity-40'>
+      <div className='turn-button-animation fixed bg-white top-2 right-2 p-1 rounded-full shadow-7xl opacity-40'>
         <svg
           className='h-5 w-5 text-red-500'
           width='24'
