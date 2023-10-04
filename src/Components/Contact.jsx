@@ -20,6 +20,7 @@ export default function Contact ({ setShowLoaderSpinner, setModalMessageToShow, 
     e.preventDefault()
     setShowLoaderSpinner(true)
     setTimeout(() => {
+      console.log(e.target)
       emailjs.sendForm('service_v3tmfis', 'template_93elmbn', e.target, 'IShr0lkfuk1OoQPEU')
         .then(res => {
           console.log(e.target)
