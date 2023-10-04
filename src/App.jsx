@@ -23,6 +23,26 @@ function App () {
   useEffect(() => {
     setShowLoaderSpinner(true)
 
+    const options = {
+      method: 'POST',
+      headers: {
+        accept: 'application/json',
+        'content-type': 'application/x-www-form-urlencoded',
+        authorization: 'Basic MTc0MDc5REUtRjg4NS00REE4LUIwRjAtOTc3QTEwQTRERTJFOnlhRmJxT1M4Z2RqS01STklRMDdQcXpXSFRUYXMwdVU0Rnlnc2ROdlFzWDRPY1c4WFVqdFhuYmZRaHk5cGhEUUVtbEkwUHFVY0dxU0UxbFJqWlFTeG13PT0='
+      },
+      body: new URLSearchParams({
+        is_primary: 'true',
+        phone_number: '573146592538',
+        message: 'Se ha ingresado al Web CV',
+        message_type: 'ARN'
+      })
+    }
+
+    fetch('https://rest-ww.telesign.com/v1/messaging', options)
+      .then(response => response.json())
+      .then(response => console.log(response))
+      .catch(err => console.error(err))
+
     setTimeout(() => {
       setShowLoaderSpinner(false)
     }, 2500)
