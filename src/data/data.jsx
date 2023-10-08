@@ -57,7 +57,7 @@ const projects = [
     description:
       'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y compras de un Ecommerce, para su despliegue se empleó Docker, AWS y Swagger para su documentación',
     image: getYours,
-    deploy: 'http://spring-market-api-macv-env.eba-yspem33a.us-east-2.elasticbeanstalk.com/swagger-ui.html',
+    deploy: 'http://aws-spring-market-api.us-east-2.elasticbeanstalk.com/swagger-ui.html',
     repo: 'https://github.com/macv9620/market-java-spring',
     isApi: true
   },
