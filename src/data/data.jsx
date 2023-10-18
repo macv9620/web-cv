@@ -52,13 +52,13 @@ const projects = [
     isApi: false
   },
   {
-    title: 'Java Market API Rest',
+    title: 'Java Billing API Rest',
     techs: [javaIcon, springBootIcon, postgresql, aws, docker],
     description:
-      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y compras de un Ecommerce, para su despliegue se empleó Docker, AWS y Swagger para su documentación',
+      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y Swagger para su documentación',
     image: getYours,
-    deploy: 'http://aws-spring-market-api.us-east-2.elasticbeanstalk.com/swagger-ui.html',
-    repo: 'https://github.com/macv9620/market-java-spring',
+    deploy: 'http://billing-system-api.us-east-2.elasticbeanstalk.com/swagger-ui/index.html',
+    repo: 'https://github.com/macv9620/billing-system-java-api',
     isApi: true
   },
   {
