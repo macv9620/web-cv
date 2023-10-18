@@ -45,7 +45,7 @@ const projects = [
     title: 'World Movies',
     techs: [jsIcon, htmlIcon, cssIcon, gitIcon, axiosIcon],
     description:
-      'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma.',
+      'Permite búsqueda de películas por diferentes criterios, se implementa Lazy Loading, Scroll Infinito y botón para cambio de idioma',
     image: worldMovies,
     deploy: 'https://macv9620.github.io/proyecto-consumo-api/',
     repo: 'https://github.com/macv9620/proyecto-consumo-api.git',
@@ -55,7 +55,7 @@ const projects = [
     title: 'Java Billing API Rest',
     techs: [javaIcon, springBootIcon, postgresql, aws, docker],
     description:
-      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y Swagger para su documentación',
+      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y se encuentra documentada con Swagger',
     image: getYours,
     deploy: 'http://billing-system-api.us-east-2.elasticbeanstalk.com/swagger-ui/index.html',
     repo: 'https://github.com/macv9620/billing-system-java-api',
@@ -65,7 +65,7 @@ const projects = [
     title: 'API Rest NodeJS',
     techs: [jsIcon, nodeIcon, expressIcon, gitIcon],
     description:
-      'Api desarrollada en ExpressJS que soporta métodos POST, PUT, PATCH, DELETE, GET para la gestión de productos de un Ecommerce.',
+      'Api desarrollada en ExpressJS que soporta métodos POST, PUT, PATCH, DELETE, GET para la gestión de productos de un Ecommerce',
     image: '',
     deploy: 'https://productsapi-euyr.onrender.com/API/v1/products',
     repo: 'https://github.com/macv9620/1-ExpressJS-API.git',
