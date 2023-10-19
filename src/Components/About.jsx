@@ -3,7 +3,7 @@ import aboutImage2 from '../assets/aboutImage2.svg'
 
 // eslint-disable-next-line react/prop-types
 const About = ({ description, setDescription }) => {
-  const message = 'Ingeniero Industrial y desarrollador Web Junior, apasionado por proyectos tecnológicos, la Web y todo lo que gira en torno a la tecnología.'
+  const message = 'Ingeniero Industrial y desarrollador Web, apasionado por proyectos tecnológicos, la Web y todo lo que gira en torno a la tecnología.'
 
   useEffect(() => {
     let i = 0

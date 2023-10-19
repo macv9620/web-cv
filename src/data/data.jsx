@@ -22,6 +22,16 @@ import docker from '../assets/techIcons/docker.png'
 
 const projects = [
   {
+    title: 'Java Billing API Rest',
+    techs: [javaIcon, springBootIcon, postgresql, aws, docker],
+    description:
+      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y se encuentra documentada con Swagger',
+    image: getYours,
+    deploy: 'http://billing-system-api.us-east-2.elasticbeanstalk.com/swagger-ui/index.html',
+    repo: 'https://github.com/macv9620/billing-system-java-api',
+    isApi: true
+  },
+  {
     title: 'Get Yours (ecommerce)',
     techs: [reactIcon, jsIcon, gitIcon, viteIcon, axiosIcon],
     description:
@@ -50,16 +60,6 @@ const projects = [
     deploy: 'https://macv9620.github.io/proyecto-consumo-api/',
     repo: 'https://github.com/macv9620/proyecto-consumo-api.git',
     isApi: false
-  },
-  {
-    title: 'Java Billing API Rest',
-    techs: [javaIcon, springBootIcon, postgresql, aws, docker],
-    description:
-      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y se encuentra documentada con Swagger',
-    image: getYours,
-    deploy: 'http://billing-system-api.us-east-2.elasticbeanstalk.com/swagger-ui/index.html',
-    repo: 'https://github.com/macv9620/billing-system-java-api',
-    isApi: true
   },
   {
     title: 'API Rest NodeJS',
