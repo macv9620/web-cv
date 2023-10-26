@@ -25,9 +25,9 @@ const projects = [
     title: 'Java Billing API Rest',
     techs: [javaIcon, springBootIcon, postgresql, aws, docker],
     description:
-      'API Java/Spring Boot/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó Docker, AWS y se encuentra documentada con Swagger',
+      'API Java/Spring Boot/Spring Security/PostgreSQL que permite la gestión de productos y facturas de un Ecommerce, para su despliegue se empleó AWS y se encuentra documentada con Swagger',
     image: getYours,
-    deploy: 'http://billing-system-api.us-east-2.elasticbeanstalk.com/swagger-ui/index.html',
+    deploy: 'http://spring-aws-v2-billing-system-env.eba-wfajhqnx.us-east-1.elasticbeanstalk.com/swagger-ui/index.html#/',
     repo: 'https://github.com/macv9620/billing-system-java-api',
     isApi: true
   },
